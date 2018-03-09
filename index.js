@@ -40,3 +40,8 @@ function prependKitten(name){
 function removeLastKitten(){
   return kittens.slice(0, kittens.length - 1);
 }
+
+// Arrays removeFirstKitten() removes the first kitten from the kittens array and returnsa new array, leaving the kittens array unchanged:
+function removeFirstKitten(){
+  return kittens.slice(kittens.length 0);
+}
