@@ -18,11 +18,11 @@ function destructivelyPrependKitten(name){
 
 //3) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array:
 function destructivelyRemoveFirstKitten(){
-  kittens.pop(0);
+  kittens.pop(1);
   return kittens
 }
 
 //1) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:
-function destructivelyRemoveLastKitten(){
-  kittens.shift
-}
+//function destructivelyRemoveLastKitten(){
+//  kittens.shift
+//}
