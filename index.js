@@ -33,5 +33,5 @@ function appendKitten(name){
 
 //Arrays prependKitten(name) prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
 function prependKitten(name){
-  return [kittens, ...name]
+  return [kittens..., name]
 }
