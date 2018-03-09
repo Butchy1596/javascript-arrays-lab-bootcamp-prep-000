@@ -35,3 +35,8 @@ function appendKitten(name){
 function prependKitten(name){
   return [name, ...kittens]
 }
+
+//Arrays removeLastKitten() removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged:
+function removeLastKitten(){
+  return [...kittens, name.pop(-1)]
+}
