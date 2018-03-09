@@ -28,6 +28,6 @@ function destructivelyRemoveLastKitten(){
 
 //Arrays appendKitten(name) appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
 function appendKitten(name){
-  kittens...name;
-  return kittens;
+  kittens.push(name);
+  return kittens
 }
