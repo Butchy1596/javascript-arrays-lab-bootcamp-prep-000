@@ -23,6 +23,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 //1) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:
-//function destructivelyRemoveLastKitten(){
-//  kittens.shift
-//}
+function destructivelyRemoveLastKitten(){
+  kittens.pop(-1);
+}
