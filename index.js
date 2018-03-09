@@ -10,7 +10,7 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyAppendKitten(name){
-  var name = "Ralph"
+  //var name = "Ralph"
   kittens.shift(name);
   return kittens
 }
